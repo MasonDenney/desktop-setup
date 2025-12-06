@@ -52,7 +52,7 @@ brew services start colima
 
 # infra tools
 brew install helm 
-# brew install pre-commit kubeconform actionlint
+# brew install pre-commit kubeconform actionlint stern kubectx kubeseal kustomize
 
 # KREW (kubectl plugins)
 # brew install krew
@@ -61,7 +61,7 @@ brew install helm
 #https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x/
 #brew install coreutils
 ## EDIT PATH TO REFERENCE coreutils libexec before mac defaults
-brew install ripgrep tree wget
+brew install ripgrep tree wget jq yq
 brew install netcat nmap
 
 # CLOUD TOOLS
