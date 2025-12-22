@@ -75,6 +75,6 @@ brew install rbenv
 # CLOUD TOOLS
 brew install gh
 brwe install awscli
-brew install --cask gcloud-cli # requires good python
+brew install --cask gcloud-cli # requires recent but not latest python
 
 
