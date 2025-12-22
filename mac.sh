@@ -78,5 +78,8 @@ brew install rbenv
 brew install gh
 brwe install awscli
 brew install --cask gcloud-cli # requires recent but not latest python
-
-
+#export PATH=/opt/homebrew/share/google-cloud-sdk/bin:"$PATH"
+#source /completion.zsh.inc
+#source /path.zsh.inc
+#gcloud components reinstall
+#export CLOUDSDK_PYTHON=X
