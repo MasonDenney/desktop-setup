@@ -34,10 +34,9 @@ echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlight
 # kubectl aliases
 ## READ https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/kubectl/README.md
 ## ADD kubectl to omz plugins
-## ALTERNATIVE IS https://github.com/ahmetb/kubectl-aliases
 
 #VMs
-#brew install --cask virtualbox
+brew install --cask virtualbox  #REQUIRES SUDO TO INSTALL
 
 # docker
 brew install docker
@@ -52,10 +51,10 @@ brew services start colima
 
 # infra tools
 brew install helm 
-# brew install pre-commit kubeconform actionlint stern kubectx kubeseal kustomize
+brew install pre-commit kubeconform actionlint stern kubectx kubeseal kustomize
 
 # KREW (kubectl plugins)
-# brew install krew
+brew install krew
 
 # CLI TOOLS
 #https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x/
@@ -64,15 +63,18 @@ brew install helm
 brew install ripgrep tree wget jq yq
 brew install netcat nmap
 
+# VERSIONED TOOLS
+brew install asdf
+brew install tfenv
+brew install pyenv
+brew install uv
+brew install sdkman
+brew install nvm
+brew install rbenv
+
 # CLOUD TOOLS
 brew install gh
-brew install awscli gcloud-cli
+brwe install awscli
+brew install --cask gcloud-cli # requires good python
 
-# VERSIONED TOOLS
-#brew install asdf
-#brew install tfenv
-#brew install pyenv
-#brew install uv
-#brew install sdkman
-#brew install nvm
-#brew install rbenv
+
