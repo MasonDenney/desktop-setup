@@ -16,6 +16,11 @@
 # Homebrew
 #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# Git
+brew install git
+#git config --global user.name ""
+#git config --global user.email ""
+
 # iTerm
 brew install --cask iterm2
 
