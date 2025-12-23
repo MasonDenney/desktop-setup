@@ -3,6 +3,12 @@
 # Helpful guide
 # https://sourabhbajaj.com/mac-setup/
 
+# MacOS
+# caffeinate
+#caffeinate -disu -t 32400
+# Show hidden files in Finder
+#defaults write com.apple.finder AppleShowAllFiles YES; killall Finder
+
 # Homebrew
 #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
