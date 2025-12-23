@@ -12,6 +12,7 @@
 # SSH
 #ssh-keygen -t ed35519
 #ssh-add ~/.ssh/id_ed25519
+# Add the pub key to Github (then click Configure SSO if needed)
 
 # Homebrew
 #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
