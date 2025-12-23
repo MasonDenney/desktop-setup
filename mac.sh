@@ -9,6 +9,10 @@
 # Show hidden files in Finder
 #defaults write com.apple.finder AppleShowAllFiles YES; killall Finder
 
+# SSH
+#ssh-keygen -t ed35519
+#ssh-add ~/.ssh/id_ed25519
+
 # Homebrew
 #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -86,11 +90,20 @@ brew install uv
 brew install go
 
 # CLOUD TOOLS
-brew install gh
-brwe install awscli
+brew install awscli
 brew install --cask gcloud-cli # requires recent but not latest python
 #export PATH=/opt/homebrew/share/google-cloud-sdk/bin:"$PATH"
 #source /completion.zsh.inc
 #source /path.zsh.inc
 #gcloud components reinstall
 #export CLOUDSDK_PYTHON=X
+
+# GH
+brew install gh
+# gh auth login #set to prefer ssh, authorize each org
+
+# VS CODE
+#brew install --cask visual-studio-code
+# EXTENSIONS
+# Github Pull Requests #Requires logging in and authorizing each org
+
