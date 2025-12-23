@@ -63,6 +63,9 @@ brew install ripgrep tree wget jq yq netcat nmap
 
 # VERSIONED TOOLS
 brew install asdf
+###brew install sdkman #requires tap
+###brew install jenv
+brew install rbenv
 brew install tfenv
 #tf install latest
 #tf use latest
@@ -70,9 +73,9 @@ brew install pyenv
 #pyenv install 3.13.0
 #pyenv global 3.13.0
 brew install uv
-brew install sdkman
+
 brew install nvm
-brew install rbenv
+#redo autocompletion
 
 # CLOUD TOOLS
 brew install gh
