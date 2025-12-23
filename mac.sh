@@ -21,6 +21,12 @@ brew install git
 #git config --global user.name ""
 #git config --global user.email ""
 
+#GPG
+#install GPG
+# https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
+#git config --global user.signingkey X
+#git config --global commit.gpgsign true
+
 # iTerm
 brew install --cask iterm2
 
