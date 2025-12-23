@@ -78,10 +78,12 @@ brew install tfenv
 brew install pyenv
 #pyenv install 3.13.0
 #pyenv global 3.13.0
-brew install uv
-
 brew install nvm
 #redo autocompletion
+
+# Programming
+brew install uv
+brew install go
 
 # CLOUD TOOLS
 brew install gh
