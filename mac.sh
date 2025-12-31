@@ -9,24 +9,9 @@
 # Show hidden files in Finder
 #defaults write com.apple.finder AppleShowAllFiles YES; killall Finder
 
-# SSH
-#ssh-keygen -t ed35519
-#ssh-add ~/.ssh/id_ed25519
-# Add the pub key to Github (then click Configure SSO if needed)
-
 # Homebrew
 #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Git
-brew install git
-#git config --global user.name ""
-#git config --global user.email ""
-
-#GPG
-#install GPG
-# https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
-#git config --global user.signingkey X
-#git config --global commit.gpgsign true
 
 # iTerm
 brew install --cask iterm2
@@ -39,6 +24,7 @@ brew install --cask iterm2
 ## #SET ZSH_THEME to "powerlevel10k/powerlevel10k"
 brew install powerlevel10k
 #echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+# OPTIONS = rainbow,ascii, 24hr,1line,compact,concise,no transient,verbose
 
 # omz plugins
 # zsh-autosuggestions
@@ -49,7 +35,7 @@ brew install zsh-autosuggestions
 
 # zsh-syntax-highlighting
 ## git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-## #ADD zsh-autosuggestions to plugins in .zshrc
+## #ADD zsh-syntax-highlighting to plugins in .zshrc
 brew install zsh-syntax-highlighting
 #echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
@@ -57,7 +43,36 @@ brew install zsh-syntax-highlighting
 ## READ https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/kubectl/README.md
 ## ADD kubectl to omz plugins
 
-#VMs
+# Browsers
+brew install --cask firefox
+brew install --cask google-chrome
+
+# GH
+brew install gh
+# gh auth login #set to prefer ssh, authorize each org
+
+# VS CODE
+#brew install --cask visual-studio-code
+# EXTENSIONS
+# Github Pull Requests #Requires logging in and authorizing each org
+
+#######################################################################
+# SSH
+#ssh-keygen -t ed35519
+#ssh-add ~/.ssh/id_ed25519
+# Add the pub key to Github (then click Configure SSO if needed)
+
+# Git
+brew install git
+#git config --global user.name ""
+#git config --global user.email ""
+#GPG
+#install GPG
+# https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
+#git config --global user.signingkey X
+#git config --global commit.gpgsign true
+
+# VMs
 brew install --cask virtualbox  #REQUIRES SUDO TO INSTALL
 
 # docker
@@ -109,13 +124,4 @@ brew install --cask gcloud-cli # requires recent but not latest python
 #source /path.zsh.inc
 #gcloud components reinstall
 #export CLOUDSDK_PYTHON=X
-
-# GH
-brew install gh
-# gh auth login #set to prefer ssh, authorize each org
-
-# VS CODE
-#brew install --cask visual-studio-code
-# EXTENSIONS
-# Github Pull Requests #Requires logging in and authorizing each org
 
