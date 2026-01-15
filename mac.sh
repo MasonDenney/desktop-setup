@@ -47,20 +47,25 @@ brew install zsh-syntax-highlighting
 brew install --cask firefox
 brew install --cask google-chrome
 
-# GH
-brew install gh
-# gh auth login #set to prefer ssh, authorize each org
+# Spotify
+brew install --cask spotify
 
 # VS CODE
-#brew install --cask visual-studio-code
+brew install --cask visual-studio-code
 # EXTENSIONS
 # Github Pull Requests #Requires logging in and authorizing each org
+
+
 
 #######################################################################
 # SSH
 #ssh-keygen -t ed35519
 #ssh-add ~/.ssh/id_ed25519
 # Add the pub key to Github (then click Configure SSO if needed)
+
+# GH
+brew install gh
+# gh auth login #set to prefer ssh, authorize each org
 
 # Git
 brew install git
@@ -71,6 +76,8 @@ brew install git
 # https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
 #git config --global user.signingkey X
 #git config --global commit.gpgsign true
+
+
 
 # VMs
 brew install --cask virtualbox  #REQUIRES SUDO TO INSTALL
@@ -115,13 +122,14 @@ brew install nvm
 # Programming
 brew install uv
 brew install go
+brew install rust
 
 # CLOUD TOOLS
 brew install awscli
+
 brew install --cask gcloud-cli # requires recent but not latest python
 #export PATH=/opt/homebrew/share/google-cloud-sdk/bin:"$PATH"
 #source /completion.zsh.inc
 #source /path.zsh.inc
 #gcloud components reinstall
 #export CLOUDSDK_PYTHON=X
-
