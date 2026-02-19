@@ -77,6 +77,7 @@ brew install gh
 brew install git
 #git config --global user.name ""
 #git config --global user.email ""
+#git config --global pull.rebase true
 #GPG
 #install GPG
 # https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
