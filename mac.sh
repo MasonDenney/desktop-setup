@@ -11,7 +11,7 @@
 
 # Homebrew
 #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+#echo "export HOMEBREW_NO_UPDATE_REPORT_NEW=1" >> ~/.zshrc
 
 # iTerm
 brew install --cask iterm2
