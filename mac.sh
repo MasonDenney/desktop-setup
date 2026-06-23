@@ -85,7 +85,10 @@ brew install git
 #git config --global commit.gpgsign true
 
 # VMs
-brew install --cask virtualbox  #REQUIRES SUDO TO INSTALL
+#brew install --cask virtualbox  #REQUIRES SUDO TO INSTALL
+
+# ESP Drivers
+brew install --cask silicon-labs-vcp-driver
 
 # docker
 brew install docker
